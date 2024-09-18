@@ -6,7 +6,7 @@ pipeline {
 }
    // triggers {
    //     cron('* * * * *')
-}
+//}
     parameters { string(name: 'DEPLOY_ENV', 
         defaultValue: 'staging',
         description: 'This will be param')
