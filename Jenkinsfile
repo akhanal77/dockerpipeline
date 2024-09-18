@@ -4,8 +4,8 @@ pipeline {
             image 'adoptopenjdk:8u282-b08-jre-hotspot'
 }
 }
-    triggers {
-        cron('* * * * *')
+   // triggers {
+   //     cron('* * * * *')
 }
     parameters { string(name: 'DEPLOY_ENV', 
         defaultValue: 'staging',
