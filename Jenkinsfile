@@ -1,7 +1,7 @@
 pipeline {
     agent {
         docker {
-            image adoptopenjdk:8u282-b08-jre-hotspot
+            image 'adoptopenjdk:8u282-b08-jre-hotspot'
 }
 }
     triggers {
